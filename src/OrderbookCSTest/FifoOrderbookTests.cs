@@ -139,7 +139,7 @@ namespace OrderbookCSTest
             Assert.AreEqual(false, fifoOrderbook.ContainsOrder(secondbuyOrderOrderId));
             Assert.AreEqual(false, fifoOrderbook.ContainsOrder(secondAskOrderOrderId));
             Assert.AreEqual(false, spread.Ask.HasValue);
-            Assert.AreEqual(false, spread.Bid.HasValue, false);
+            Assert.AreEqual(false, spread.Bid.HasValue);
         }
     }
 }
