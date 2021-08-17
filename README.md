@@ -28,6 +28,7 @@ The following features are currently supported.
 
 1. First-In-First-Out (FIFO)
 2. Last-In-First-Out (LIFO)
+3. Pro-Rata
 
 ### Market Data
 
@@ -54,10 +55,6 @@ Seperate market data dissemination platform.
 3. Daily Statistics
 4. Security Definition
 
-### Matching Algorithms
-
-1. Pro-Rata
-
 ***
 
 # Building Eden
@@ -66,5 +63,5 @@ The following steps will allow you to build and run Eden.
 
 1. Download [Visual Studio 2019](https://visualstudio.microsoft.com/vs/).
 2. Download this repository.
-3. Open TradingEngine.sln under `src/TradingEngine`
+3. Open `TradingEngine.sln` under `src/TradingEngine`
 4. Hit F5 to build and run the solution.
